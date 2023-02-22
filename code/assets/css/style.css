@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.why-code-items {
+  margin-bottom: 20px;
+}
+
+div .size{
+  font-size: 50px;
+}
+
+.why-code-items span {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+.why-code-items span::after {
+  content: url(../images/sep-line.png);
+  display: block;
+  margin-bottom: 20px;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.why-code-item {
+  display: flex;
+}
+
+div.about {
+  position: relative;
+  margin-left: 10px;
+  
+}
+
+div.about p{
+  margin-bottom: 20px;
+  
+}
+
+div.about a{
+  position: absolute;
+  bottom: 0px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+
+}
+
+
+
+.why-code-item img {
+  width: 200px;
+}
+
+div.why-code-item {
+  margin-bottom: 20px;
+}
+
+.contain {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/Download\ Free\ Background\ Sizes\ for\ Desktop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+}
+
+.contain h3 {
+  font-size: 21px;
+  color:white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+p.tittle{
+  font-size: 70px;
+  color: white;
+  text-align: center;
+}
+
+p.text{
+  font-size: 35px;
+  color: white;
+  text-align: center;
+}
+
+.center{
+  margin-top: 30px;
+  text-align: center;
+}
+
+h3.comment{
+  font-size: 50px;
+}
+
+p.comment {
+  font-size: 19.5px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.centr{
+  justify-content: center;
+}
+
+.row img.photo{
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+  border-radius: 999px;
+}
+
+.profile h4{
+  font-size: 21px;
+  font-weight: bolder;
+}
+
+.profile span{
+  font-size: 14px;
+}
+
+
+@media only screen and (max-width:992px) {
+  .col-6 {
+      width: 100%;
+  }
+
+  .col-3{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width:662px) {
+  .col-6 {
+      width: 100%;
+  }
+
+  .why-code-item img {
+      display: none;
+  }
+
+  .col-3{
+    width: 100%;
+  }
+}
